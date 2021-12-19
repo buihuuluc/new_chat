@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:new_chat/constant/strings.dart';
 import 'package:new_chat/models/call.dart';
@@ -49,6 +48,7 @@ class CallUtils {
       );
     }
   }
+
   static dialAudio({User from, User to, context}) async {
     Call call = Call(
       callerId: from.uid,

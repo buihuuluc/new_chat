@@ -3,8 +3,7 @@ import 'package:new_chat/screens/call_screen/pickup/pickup_layout.dart';
 
 import 'package:new_chat/screens/pagesview/logs/widgets/log_list_container.dart';
 import 'package:new_chat/utils/universal_variables.dart';
-import 'package:new_chat/widgets/skype_appbar.dart';
-
+import 'package:new_chat/widgets/new_chatappbar.dart';
 
 class LogScreen extends StatelessWidget {
   @override

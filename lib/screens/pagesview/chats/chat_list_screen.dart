@@ -8,7 +8,7 @@ import 'package:new_chat/screens/pagesview/chats/widgets/contact_view.dart';
 import 'package:new_chat/screens/pagesview/chats/widgets/user_circle.dart';
 import 'package:new_chat/utils/universal_variables.dart';
 import 'package:new_chat/widgets/quiet_box.dart';
-import 'package:new_chat/widgets/skype_appbar.dart';
+import 'package:new_chat/widgets/new_chatappbar.dart';
 import 'package:provider/provider.dart';
 
 import 'widgets/new_chat_button.dart';
@@ -40,7 +40,6 @@ class ChatListScreen extends StatelessWidget {
             ),
           ],
         ),
-
         body: ChatListContainer(),
       ),
     );

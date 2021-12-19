@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:hive/hive.dart';
 import 'package:new_chat/models/log.dart';
 import 'package:path_provider/path_provider.dart';
